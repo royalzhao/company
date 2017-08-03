@@ -1,0 +1,70 @@
+.reg_main{
+	width: 40%;
+	margin: 20px auto;
+	background: rgba(130,206,138,0.7);
+	padding: 20px 0;
+	box-shadow:  10px 10px 10px #888;
+}
+.reg_main figure{
+	width: 120px;	
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	
+}
+.reg_main figure img{
+	width: 120px;
+	border-radius:60px;
+	-webkit-border-radius: 60px;
+
+}
+.reg_main figure figcaption{
+	width: 120px;
+	height: 50px;
+	background: #9EE59F;
+	opacity: 0.8;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 0px 0px 60px 60px ;
+	position: absolute;
+	bottom: 0;
+	transform:translate(0px,50px);
+	-webkit-transform: translate(0px,50px);
+	-moz-transform: translate(0px,50px);
+	transition: all 0.45s ease-in-out;
+	-webkit-transition: all 0.45s ease-in-out;
+	-moz-transition: all 0.45s ease-in-out;
+
+}
+.reg_main figure:hover figcaption{
+	transform: translate(0px,0px);
+	-webkit-transform:translate(0px,0px);
+	-moz-transform:translate(0px,0px);
+}
+.reg_main figure figcaption a{
+	color: #FFFFFF;
+	font-size: 1.3em;
+}
+.reg_main .form-group{
+	margin: 20px auto;
+	max-width: 500px;
+
+}
+.reg_main .form-group label{
+	font-size: 1.3em;
+}
+.reg_main .form-group .col-sm-9 .code{
+	float: left;
+	width: 30%;
+}
+.reg_main .form-group .col-sm-9 img{
+	margin: 3px 10px;
+	cursor: pointer;
+}
+input.btn-block[type="button"], input.btn-block[type="reset"], input.btn-block[type="submit"]{
+	width: 47%;
+	margin: 0 auto;
+}
